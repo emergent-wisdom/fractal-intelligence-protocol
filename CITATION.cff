@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Fractal Intelligence Protocol"
+type: software
+authors:
+  - family-names: "Westerberg"
+    given-names: "Henrik"
+version: 0.1.0
+date-released: 2026-08-12
+repository-code: "https://github.com/emergent-wisdom/fractal-intelligence-protocol"
+license: MIT

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fractal-intelligence-protocol"
+version = "0.1.0"
+description = "Experimental coordinator and node SDK for the Fractal Intelligence Solver Contract"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Henrik Westerberg" }]
+keywords = ["artificial intelligence", "multi-agent systems", "agent protocols", "research software"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/emergent-wisdom/fractal-intelligence-protocol"
+Paper = "https://doi.org/10.5281/zenodo.19462645"
+
+[project.scripts]
+fractal-coordinator = "fractal_protocol.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
