@@ -5,7 +5,19 @@ type: software
 authors:
   - family-names: "Westerberg"
     given-names: "Henrik"
+    orcid: "https://orcid.org/0009-0002-0496-2445"
 version: 0.1.0
-date-released: 2026-08-12
+date-released: "2026-08-12"
 repository-code: "https://github.com/emergent-wisdom/fractal-intelligence-protocol"
 license: MIT
+references:
+  - type: article
+    authors:
+      - family-names: "Westerberg"
+        given-names: "Henrik"
+        orcid: "https://orcid.org/0009-0002-0496-2445"
+    title: "Fractal Intelligence: Conceptual Decomposition as Problem-Solving Infrastructure"
+    year: 2026
+    doi: "10.5281/zenodo.19462645"
+    url: "https://doi.org/10.5281/zenodo.19462645"
+    scope: "Accompanying paper"

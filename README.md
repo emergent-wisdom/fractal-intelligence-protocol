@@ -23,9 +23,10 @@ evaluations.
 
 The experimental layer now also includes:
 
-- a model-agnostic implementation of candidate generation, the four conceptual
-  tests, bounded completeness search, routing sanity probes, and marginal-value
-  recursion;
+- model-agnostic orchestration of candidate generation and semantic judgment
+  through an injected oracle, with deterministic control flow for the four
+  conceptual tests, bounded completeness search, routing sanity probes, and
+  marginal-value recursion;
 - content-addressed, review-only decomposition proposals;
 - a client-side advisory materialization compiler that requires clean structure
   and exact admitted Solver manifests before it emits child task specifications;
@@ -160,16 +161,16 @@ deployment boundaries rather than functions of this protocol kernel.
 
 ## Design documents
 
-- [Architecture](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/docs/architecture.md) — boundaries, object model, and phases
-- [Protocol v1](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/docs/protocol-v1.md) — HTTP contract and gate semantics
-- [Verification](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/docs/verification.md) — why TEEs are later infrastructure
-- [Conceptual decomposition](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/docs/conceptual-decomposition.md) — executable four-test algorithm, marginal value, and materialization boundary
-- [Benchmarking](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/docs/benchmarking.md) — five-arm matched-budget experiment contract
-- [Solo mode](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/docs/solo-mode.md) — shared execution plan, one-model mode, budgets, and run records
+- [Architecture](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/architecture.md) — boundaries, object model, and phases
+- [Protocol v1](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/protocol-v1.md) — HTTP contract and gate semantics
+- [Verification](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/verification.md) — why TEEs are later infrastructure
+- [Conceptual decomposition](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/conceptual-decomposition.md) — executable four-test algorithm, marginal value, and materialization boundary
+- [Benchmarking](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/benchmarking.md) — five-arm matched-budget experiment contract
+- [Solo mode](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/solo-mode.md) — shared execution plan, one-model mode, budgets, and run records
 
 ## License
 
 The code and protocol documentation in this repository are available under the
-[MIT License](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/main/LICENSE).
+[MIT License](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/LICENSE).
 You may use, modify, distribute, and build commercial systems from them subject
 to the license terms.
