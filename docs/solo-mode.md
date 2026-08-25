@@ -40,7 +40,7 @@ class ExecutionBackend(Protocol):
     def execute(self, plan_value: Any, *, run_id: str) -> dict[str, Any]: ...
 ```
 
-`SingleModelBackend` implements it in version 0.1.0. A coordinator-backed
+`SingleModelBackend` implements it in version 0.2.0. A coordinator-backed
 implementation remains deferred.
 
 The logical plan deliberately excludes network deployment details such as

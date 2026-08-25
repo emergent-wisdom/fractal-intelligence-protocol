@@ -11,6 +11,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any
 from urllib.parse import parse_qs, unquote, urlsplit
 
+from . import __version__
 from .errors import DomainError
 from .service import CoordinatorService
 
@@ -83,7 +84,7 @@ class CoordinatorHTTPServer(ThreadingHTTPServer):
 
 class CoordinatorRequestHandler(BaseHTTPRequestHandler):
     server: CoordinatorHTTPServer
-    server_version = "FractalCoordinator/0.1"
+    server_version = f"FractalCoordinator/{__version__}"
 
     def do_GET(self) -> None:  # noqa: N802 - BaseHTTPRequestHandler API
         self._dispatch("GET")
