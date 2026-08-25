@@ -140,16 +140,37 @@ canonicalization, content hashes, decimal marginal-value arithmetic, and the
 decision trace. Every result is labeled `review_required`; semantic model verdicts
 are evidence, not payable gates.
 
-A pure, client-side materialization plan maps proposal root axes to exact
-protocol-v1 task specifications and an admitted-manifest snapshot. Missing axes,
+The additive FI topology profile wraps that downward artifact in the missing
+upward motion. Its public record must follow adjacent typed `specialization`
+edges from a problem-specific capability to one configured `RootSolver` and
+contain the exact reverse route to the direct `composition` boundary. Every
+ascent step carries public parent-search, sibling-search, genus/differentia,
+reframing, and contract-fit evidence for every observed sibling. This validates
+the artifact, not the oracle's hidden order of thought. Specialization sibling
+sets remain open-world; only the four-test composition set may claim completeness.
+
+The profile represents an immutable concept-graph snapshot and a review-required
+all-or-nothing pure patch transition. Persistent stores must add transactional
+compare-and-swap. Nodes are exact, history-bearing record digests; roles live on
+typed edges, so one unchanged child can serve several parents. Contract repair
+creates a new digest with explicit `supersedes` lineage, never an in-place
+mutation. Deterministic validation owns root reachability, acyclicity,
+typed-edge consistency, exact route reversal, patch freshness, axis binding, and
+synthesis coverage. It does not establish semantic adjacency or contract
+equivalence.
+
+The older decomposition-only path has a pure client-side materialization plan,
+which maps proposal root axes to exact protocol-v1 task specifications and an
+admitted-manifest snapshot. Missing axes,
 unresolved capabilities, incomplete coverage, routing conflicts, exhausted
 planning limits, or unresolved depth probes block compilation into a delegation
 request. The existing live-lease, budget, constraint, and administrator approval
 checks remain authoritative.
 
-This compiler is advisory in the current alpha. Its delegation payload contains
-ordinary children, not the proposal/plan hashes or axis bindings; the server does
-not persist or display conceptual evidence and providers can bypass the helper.
+That decomposition-only compiler is advisory in the current alpha. Its
+delegation payload contains ordinary children, not the proposal/plan hashes or
+axis bindings; the server does not persist or display conceptual evidence and
+providers can bypass the helper.
 
 Conceptual proposals do not yet have their own coordinator persistence or review
 API and are not crystallized into a shared Sema graph. This avoids pretending that
@@ -170,6 +191,15 @@ outputs remain labeled `semantic_verification: unverified`. Record validation
 requires the exact plan accepted before execution and replays retained-output
 schema and acceptance checks against it; the plan must be stored and pinned by a
 trusted application boundary.
+
+An approved FI case can likewise compile its direct composition work into the
+same backend-neutral execution plan, but only after its exact reviewed patch is
+the active snapshot. Passive specialization nodes remain routing context rather
+than model calls. The compiler injects the reviewed problem framing,
+Root-to-subject route, ascent assessments, node and edge contracts, and parent
+synthesis into child and synthesis contexts. Later operational objectives,
+schemas, and gates require a separate final-plan review. It cannot admit an
+offering, create coordinator work, or authorize payment.
 
 ## Routing
 
@@ -262,8 +292,9 @@ change cannot alter already quoted provider earnings.
 - Default one-lease node capacity and independent execution of delegated children.
 - Bounded task/Result payloads, per-problem task caps, and paged submission audits.
 - Public execution contracts plus coordinator-private hidden verifier clauses.
-- Manual topology changes through controlled recursive delegation and one
-  operator-authorized root-successor reframe.
+- Manual coordinator task-tree changes through controlled recursive delegation
+  and one operator-authorized root-successor reframe; portable FI graph patches
+  remain separately reviewed research artifacts.
 - Local append-only SQLite Pathway events.
 - No TEE, blockchain, token, staking, custody, or autonomous probabilistic judge.
 
@@ -276,9 +307,11 @@ change cannot alter already quoted provider earnings.
 4. **External settlement adapters:** authenticated collection, refund, and payout
    integrations.
 5. **Portable identity and federation:** signed node records and multiple registries.
-6. **Experimental decomposition:** four decomposition tests, marginal-value
-   recursion, automatic Frame Error heuristics, and broader reviewed topology
-   mutations. Operator-authorized root contract mutation already exists.
+6. **Experimental topology:** four decomposition tests, marginal-value recursion,
+   mandatory abstraction ascent, typed reviewed graph patches, and composition
+   execution compilation are portable research artifacts. Coordinator graph
+   persistence, automatic Frame Error diagnosis, semantic repair, and topology
+   learning remain future work.
 
 ## Explicit non-claims
 

@@ -21,6 +21,13 @@ crypto custody, or reliable model-based judging. This implementation accompanies
 repository supplies protocol and experiment infrastructure for executable
 evaluations.
 
+Conceptual decomposition is intended to be generative as well as organizational.
+A different carve changes which dimensions receive dedicated reasoning and which
+contributions can be composed; it may therefore expose previously unconsidered
+candidate mechanisms or solution families that an inherited task framing does
+not make salient or separately searchable. This is a central hypothesis to test,
+not a guarantee that every model-authored carve is novel, useful, or better.
+
 The experimental layer now also includes:
 
 - model-agnostic orchestration of candidate generation and semantic judgment
@@ -28,6 +35,9 @@ The experimental layer now also includes:
   conceptual tests, bounded completeness search, routing sanity probes, and
   marginal-value recursion;
 - content-addressed, review-only decomposition proposals;
+- mandatory upward-first specific-to-Root routes with genus/differentia sibling
+  assessment, typed specialization and composition edges, immutable reviewed
+  topology patches, multi-parent concept reuse, and explicit parent synthesis;
 - a client-side advisory materialization compiler that requires clean structure
   and exact admitted Solver manifests before it emits child task specifications;
 - a deterministic five-arm matched-budget harness with blind evaluation and
@@ -43,10 +53,12 @@ The experimental layer now also includes:
   artifacts into a separately funded successor problem.
 
 These are algorithm and experiment foundations, not evidence that conceptual
-decomposition improves answers. Reframing is operator-authorized reuse, not
-autonomous FrameError detection, semantic deduplication, learned routing, or
-evidence that reuse improves outcomes. See the dedicated design documents for
-the exact trust boundaries and remaining work.
+decomposition improves answers. Topology construction remains a reviewed,
+portable artifact rather than an autonomous ontology learner or coordinator
+authority. Reframing is operator-authorized reuse, not autonomous FrameError
+detection, semantic deduplication, learned routing, or evidence that reuse
+improves outcomes. See the dedicated design documents for the exact trust
+boundaries and remaining work.
 
 ## Why the first version is centralized
 
@@ -161,16 +173,17 @@ deployment boundaries rather than functions of this protocol kernel.
 
 ## Design documents
 
-- [Architecture](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/architecture.md) — boundaries, object model, and phases
-- [Protocol v1](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/protocol-v1.md) — HTTP contract and gate semantics
-- [Verification](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/verification.md) — why TEEs are later infrastructure
-- [Conceptual decomposition](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/conceptual-decomposition.md) — executable four-test algorithm, marginal value, and materialization boundary
-- [Benchmarking](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/benchmarking.md) — five-arm matched-budget experiment contract
-- [Solo mode](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/docs/solo-mode.md) — shared execution plan, one-model mode, budgets, and run records
+- [Architecture](docs/architecture.md) — boundaries, object model, and phases
+- [Protocol v1](docs/protocol-v1.md) — HTTP contract and gate semantics
+- [Verification](docs/verification.md) — why TEEs are later infrastructure
+- [Conceptual decomposition](docs/conceptual-decomposition.md) — executable four-test algorithm, marginal value, and materialization boundary
+- [Mandatory-abstraction topology](docs/topology-construction.md) — upward-first routing, typed graph evolution, multi-parent reuse, and reviewed execution compilation
+- [Benchmarking](docs/benchmarking.md) — five-arm matched-budget experiment contract
+- [Solo mode](docs/solo-mode.md) — shared execution plan, one-model mode, budgets, and run records
 
 ## License
 
 The code and protocol documentation in this repository are available under the
-[MIT License](https://github.com/emergent-wisdom/fractal-intelligence-protocol/blob/v0.1.0/LICENSE).
+[MIT License](LICENSE).
 You may use, modify, distribute, and build commercial systems from them subject
 to the license terms.

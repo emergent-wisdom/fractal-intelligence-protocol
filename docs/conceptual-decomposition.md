@@ -5,6 +5,25 @@ bounded subset of the paper's first conceptual-decomposition algorithm. It is an
 experimental planning layer, not a payable verification gate and not a claim that
 the generated concepts are objectively correct.
 
+## Generative purpose
+
+A conceptual carve is not merely a partition of known work. It supplies search
+coordinates: when an accepted dimension receives a distinct Solver boundary,
+reasoning can pursue mechanisms native to that dimension, and parent synthesis
+can combine the resulting contributions. Changing the carve may therefore make
+previously unconsidered solution candidates locally generable when an inherited
+task framing would not expose them.
+
+Neither structural acceptance nor model self-report establishes novelty or
+usefulness. Those are relational outcome claims: a credible experiment must
+compare equally resourced carves, retain the route from frame and dimension to
+candidate and final result, and judge distinctness and utility without revealing
+the condition. The reviewed topology and execution-plan path preserve
+frame-and-axis-to-task provenance. Candidate-mechanism and
+candidate-to-final-result attribution still require suitable caller-supplied
+output schemas; the protocol core does not guarantee them or assign a dedicated
+novelty score.
+
 ## Control flow
 
 `ConceptualDecompositionEngine` owns the bounded, deterministic orchestration:
@@ -119,6 +138,13 @@ Mapping exactly one root axis to one child task is a conservative v1 execution
 policy, not a theorem of Fractal Intelligence. The paper's intended steady state
 has many tasks routing through reusable persistent concept Solvers.
 
+The separate [mandatory-abstraction topology profile](topology-construction.md)
+now supplies a review-only realization of that routing structure. It requires a
+specific-to-Root specialization ascent, its exact reverse traversal, immutable
+multi-parent graph reuse, and bindings from this four-test artifact to direct
+composition children. It does not change this engine's semantic judgments or
+turn them into proofs.
+
 ## Current limits
 
 This is the first executable algorithm, not the final ontology system:
@@ -128,13 +154,16 @@ This is the first executable algorithm, not the final ontology system:
   independence matrix and generator/judge disagreement.
 - Boolean semantic verdicts do not yet carry witness sets, counterexamples, or an
   `uncertain` state.
-- Proposals and materialization plans are content-addressed artifacts but are not
-  yet persisted in a dedicated coordinator review table or crystallized into a
-  Sema concept graph.
+- Proposals, portable topology snapshots, and materialization plans are
+  content-addressed artifacts but are not yet persisted in a dedicated
+  coordinator review table or crystallized into a Sema concept graph.
 - There is no production LLM adapter, evaluator quorum, semantic deduplication,
-  Frame Error detector, automatic merge/reframe search, or routing-warning repair
-  loop. The coordinator's bounded operator-authorized root successor is not an
-  automatic topology learner.
+  Frame Error detector, automatic semantic merge/reframe search, or
+  routing-warning repair loop. The topology profile can validate an
+  all-or-nothing pure transition for an explicitly reviewed structural patch; it
+  is not an automatic topology learner. A persistent store must add transactional
+  compare-and-swap. The coordinator's bounded operator-authorized root successor
+  remains separate.
 - Existing Pathway events do not contain paired shallow/deep outcome and cost data,
   so they cannot yet calibrate causal marginal value.
 - A proposal digest identifies one exact trace artifact. It is not a Sema semantic

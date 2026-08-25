@@ -84,6 +84,18 @@ strategy's `public_input`. Objective proof, code, and exact-JSON tasks should us
 trusted deterministic evaluator. Open-ended outputs require a blind arbiter and a
 separate reliability study.
 
+## Testing generative discovery
+
+Where the predicted benefit is that a fresh conceptual carve exposes previously
+unconsidered solutions, final quality alone is not enough to diagnose the
+mechanism. The experiment should retain public provenance from abstraction route
+and conceptual axis to candidate mechanism, then have blind evaluators score both
+usefulness and substantive distinctness against candidates produced by the
+equally resourced conventional and scrambled-decomposition arms. Novelty cannot
+be established by model self-report, wording differences, or absence from a
+researcher's hand-written list. Unless preregistered as a primary outcome, this
+discovery analysis remains diagnostic alongside the final outcome score.
+
 ## What this does not establish
 
 The harness is the experimental accounting substrate. Scripted examples test its
